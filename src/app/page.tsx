@@ -10,28 +10,22 @@ export default function Home() {
           load <code className="rounded bg-zinc-100 px-1 py-0.5 text-sm dark:bg-zinc-900">dist/chrome</code>{" "}
           as an unpacked extension, then visit any site.
         </p>
-        <ul className="mt-6 list-inside list-disc space-y-2 text-sm text-zinc-700 dark:text-zinc-300">
-          <li>
-            <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">
-              Shift
-            </kbd>{" "}
-            +{" "}
-            <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">
-              V
-            </kbd>{" "}
-            — toggle vertical ruler (on by default)
-          </li>
-          <li>
-            <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">
-              Shift
-            </kbd>{" "}
-            +{" "}
-            <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">
-              H
-            </kbd>{" "}
-            — toggle horizontal ruler
-          </li>
-        </ul>
+        <p className="mt-4 text-sm text-zinc-700 dark:text-zinc-300">
+          Install from the{" "}
+          <a
+            className="text-zinc-950 underline underline-offset-2 hover:text-zinc-600 dark:text-zinc-200 dark:hover:text-zinc-400"
+            href="https://chromewebstore.google.com/detail/ruler/nmhhdnilbeomfigpaakdjnmmmiekbpml?utm_source=item-share-cb"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Chrome Web Store
+          </a>
+          . See the project README for shortcuts (<kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">H</kbd> / <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">B</kbd> / <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">V</kbd> for line mode,{" "}
+          <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">R</kbd> to toggle, optional{" "}
+          <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">Alt</kbd>+{" "}
+          <kbd className="rounded bg-zinc-100 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-900">Shift</kbd>+…
+          in Chrome).
+        </p>
       </main>
     </div>
   );
